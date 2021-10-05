@@ -1,6 +1,6 @@
 header.menu{
     display: flex;
-    width: 93.2vw;
+    width: 94%;
     position: fixed;
     padding: 5px 3%;
     justify-content: space-between;
@@ -73,4 +73,36 @@ header.menu{
 
 .active{
     background-color: #141414;
+}
+
+
+.responsiveMenu{
+    display: none;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+}
+
+.responsiveMenu .svg{
+    margin-left: 10px;
+}
+
+.responsiveMenu:hover .svg{
+    transform: rotate(0.5turn);
+    margin-bottom: -10px;
+}
+
+@media(max-width:1024px){
+
+    .mainMenu ul {
+        display: none;
+    }
+
+    .responsiveMenu{
+        display: flex;
+    }
+
+    .userMenu ul{
+        display: none;
+    }
 }
