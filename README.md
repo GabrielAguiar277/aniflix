@@ -5,6 +5,9 @@ Este site foi desenvolvido como um desafio pessoal, utilizando o react e consumi
 ### Com este desafio pude: 
 
 ° Aprender um pouco mais sobre hooks
+
 ° Implementar uma API
+
 ° Criar um carrousel
+
 ° Responsividade
