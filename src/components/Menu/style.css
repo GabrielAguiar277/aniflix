@@ -1,0 +1,76 @@
+header.menu{
+    display: flex;
+    width: 93.2vw;
+    position: fixed;
+    padding: 5px 3%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 10000;
+}
+
+.mainMenu{
+    display: flex;
+}
+
+.mainMenu ul{
+    display: flex;
+    list-style: none;
+}
+
+.mainMenu ul li{
+    margin-left: 30px;
+}
+
+.mainMenu ul li a{
+    color: #f5f3f3;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.mainMenu ul li a:hover{
+    color: #d4d1d1;
+}
+
+.userMenu{
+    display: flex;
+    align-items: center;
+}
+
+.userMenu ul{
+    display: flex;
+    color: #f5f3f3;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.userMenu ul li{
+    margin-right: 30px;
+}
+
+.userMenu ul li a{
+    text-decoration: none;
+    color: #f5f3f3;
+    transition: 0.6s;
+}
+
+.userMenu ul li a:hover{
+    color: #d4d1d1;
+}
+
+.logo{
+    height: 50px;
+    width: 95px;
+}
+
+.svg{
+    height: 20px;
+    fill: #f5f3f3;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #141414;
+}

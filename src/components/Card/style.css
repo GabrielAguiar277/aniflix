@@ -1,0 +1,22 @@
+.card{
+    transform: scale(0.9);
+    transition: 0.6s;
+    max-width: 200px;
+    max-height: 280px;
+    min-width: 66.66px;
+    min-height: 93.33px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card:hover{
+    transform: scale(1);
+}
+
+.card img{
+    object-fit: cover;
+    width: 200px;
+    height: 280px;
+    min-width: 66.66px;
+    min-height: 93.33px;
+}

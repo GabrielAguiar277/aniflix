@@ -1,0 +1,13 @@
+.mainBoard{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: #141414;
+    
+}
+
+.boardRows{
+    position: relative;
+    top: -150px;
+
+}

@@ -1,0 +1,51 @@
+.row{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.genderTitle{
+    color: white;
+    margin-left: 3%;
+}
+
+.rowBody{
+    transition: 0.6s;
+}
+
+.arrowLeft, .arrowRight{
+    position: absolute;
+    height: 280px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.arrowLeft{
+    left: 0;
+}
+
+.rowBody--listarea{
+    overflow-x: hidden;
+    padding-left: 3%;
+}
+
+.row:hover .arrowLeft,.row:hover .arrowRight{
+    opacity: 1;
+}
+
+.arrowRight{
+    right: 0;
+}
+
+.arrowLeft svg, .arrowRight svg{
+    fill: white;
+    height: 30px;
+    width: 30px;
+}

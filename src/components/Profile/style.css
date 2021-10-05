@@ -1,0 +1,81 @@
+.profile{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.svg{
+    height: 5px;
+    fill: #f5f3f3;
+    transition: 0.3s;
+    margin-bottom: 0px;
+}
+
+.profile:hover .ani{
+    transform: rotate(0.5turn);
+    margin-bottom: -10px;
+}
+
+.espa{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    
+}
+.tri{
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    background-color: #141414;
+    position: absolute;
+    right: 65px;
+    top: 68px;
+    display: none;
+}
+
+.profile:hover .mainMenuProfile .tri{
+    display: block;
+}
+
+.profile .mainMenuProfile ul{
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 60px;
+    top: 75px;
+    background-color: #141414;
+    gap: 1rem;
+}
+
+.profile:hover .mainMenuProfile ul{
+    display: flex;
+}
+
+.profile .mainMenuProfile ul li{
+    display: flex;
+    align-items: center;
+
+    padding: 12px 30px 12px 10px;
+}
+
+.profile .mainMenuProfile ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.profile .mainMenuProfile ul li a svg{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
